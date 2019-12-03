@@ -1,13 +1,11 @@
-#include "main.h"
 #include "driverlib/driverlib.h"
-#include "hal_LCD.h"
 #include <string.h>
 #include <stdio.h>
 
-/*
- * This project contains some code samples that may be useful.
- *
- */
+#include "hal_LCD.h"
+#include "main.h"
+
+// Globals
 
 char ADCState = 0; //Busy state of the ADC
 int adc_results[3] = {0};
